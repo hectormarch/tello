@@ -1,0 +1,173 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: hsl(155, 33%, 33%);
+    color: rgb(4, 8, 11);
+}
+
+/* Contentedor principal */
+.container{
+    margin: 30px auto;
+    display: flex;
+    height: 45rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #C2F2DE;
+    margin: 20px;
+}
+
+/* Lista de Tareas */
+.lista{
+    width: 50%;
+    height: 100%;
+}
+h1{
+    width: 85%;
+   
+}
+.entradaTarea{
+    width: 100%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+ul{
+    width: 85%;
+    margin: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+input{
+    width: 80%;
+    height: 40px;
+    margin: 20px 0;
+    border-radius: 5px;
+    
+}
+textarea{
+    width: 80%;
+    height: 70px;
+}
+label{
+    margin: 20px 0;
+}
+.btn-add{
+    background-color: #308461;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.1rem;
+    outline: none;
+    width: auto;
+    padding: 5px 10px;
+}
+
+.btn-add:hover{
+    background-color: rgb(14, 57, 42);
+}
+
+
+/* Resumen de Tareas  */
+.resumen{
+    background-color: #178759;
+    color: white;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    text-align: center;
+}
+
+.listasAgregadas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+li {
+    width: 100%;
+    margin: 10px 0;
+    height: auto;
+    background-color:#82c1a5;
+    display: flex;
+    justify-content: space-between;
+}
+li div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+li div:first-child h5{
+    width: 120px;
+    color: white;
+    background-color: #729184;
+    margin: 5px 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    height: auto;
+}
+li div:first-child p{
+    color: white;
+    background-color: #2b9d6d;
+    margin: 5px 10px;
+
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+li div:nth-child(2) p{
+    width: 100px;
+    height: auto;
+    color: aliceblue;
+    background-color: rgb(20, 118, 71);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.tareasPendientes{
+    width: 80%;
+    height: 40px;
+    border-color: #C2F2DE;
+}
+
+.btn-delete {
+    background-color: #82c1a5;
+    outline: none;
+    border: none;
+    height: 25px;
+}
+.btn-delete p {
+    background-color: #82c1a5;
+    border: none;
+    color: rgb(133, 18, 18);
+    font-family: fantasy;
+    font-size: 1.2rem;
+    outline: none;
+    text-align: center;
+}
+.btn-delete:hover{
+    background-color: rgb(228, 130, 130);
+    
+
+}
+
+

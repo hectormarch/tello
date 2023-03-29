@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tareas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    
+    <div class="container">
+        <div class="lista">
+            <h1>Lista de Tareas</h1>
+            <div class="entradaTarea">
+                <form action="">
+                    <input type="text" placeholder="Titulo de tarea">
+                    <textarea id="textarea" type="text" placeholder="Descripción de la tarea"></textarea>
+                    <label>Prioridad
+
+                        <select id="prioridad"> 
+                            <option value="">Seleccione la prioridad</option>
+                            <option value="1">Alta</option>
+                            <option value="2">Media</option>
+                            <option value="3">Baja</option>
+                        </select>
+                    </label>
+                    <button class="btn-add">Agregar</button>
+                </form>
+            </div>
+        </div>
+        <div class="resumen">
+            <div class="listasAgregadas">
+                <ul>
+                </ul>
+            </div>
+            <div class="tareasPendientes">
+                <p>No tiene tareas pendientes</p>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+</html>
