@@ -30,10 +30,13 @@ addBtn.addEventListener("click", (e)=>{
         console.log(prior);
         if (prior==1){
             priority.textContent="Alta";
+            priority.classList.add("prioridadA");
         }else if (prior==2){
                 priority.textContent="Media";
+                priority.classList.add("prioridadB");
             }else if (prior==3){
                     priority.textContent="Baja";
+                    priority.classList.add("prioridadC")
                 } else {
                     priority.textContent="No asignada"
                 }

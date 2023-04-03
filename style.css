@@ -25,6 +25,9 @@ body{
 .lista{
     width: 50%;
     height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 h1{
     width: 85%;
@@ -138,7 +141,7 @@ li div:nth-child(2) p{
     width: 100px;
     height: auto;
     color: aliceblue;
-    background-color: rgb(20, 118, 71);
+    
     border-radius: 5px;
     padding: 5px 10px;
 }
@@ -168,6 +171,16 @@ li div:nth-child(2) p{
     background-color: rgb(228, 130, 130);
     
 
+}
+
+.prioridadA{
+    background-color: rgb(212, 89, 89);
+}
+.prioridadB{
+    background-color: rgb(62, 102, 50);
+}
+.prioridadC{
+    background-color: rgb(135, 114, 114);
 }
 
 
